@@ -1,0 +1,196 @@
+
+
+html {
+    font-size: 62.5%; 
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+
+
+.navbar {
+    background-image: linear-gradient(to right bottom, 
+    #ddba5baf, #e6da34e0);
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, .1);
+    border-bottom: 0 0.5rem 0.6rem rgba(0, 0, 0, .1);
+}
+
+
+
+
+#nav-item {
+    margin: 0 25px;    
+    color: white;
+}
+
+.nav-underline {
+    border-bottom: solid 1px white;
+}
+
+#nav-item:hover {
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, .1);
+    border-radius: 50px;
+    transform: translateY(-3px);
+    border-bottom: solid 1px rgba(0, 0, 0, .1); }
+
+#nav-item:active { 
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, .2);
+    border-bottom: solid 1px rgba(0, 0, 0, .2);
+    }
+
+
+#navbtn {
+    background-color: white;
+    }
+
+#navbar-div {
+    display: inline-block;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-color: white;
+    
+}
+
+
+
+.infotainer {
+    position: relative;
+    width: 56vw;
+    margin: 7rem auto;
+    border-radius: 6px;
+    padding: 1.5rem 5rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, .2);
+    padding-bottom: 40px;
+}
+
+.infotainer--photos {
+    position: relative;
+    width: 60vw;
+    margin: 7rem auto;
+    border-radius: 6px;
+    padding: 1.5rem 5rem;
+    background-color: #f3f3f3;
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, .2);
+    padding-bottom: 40px;
+    margin-top: 90px;
+}
+
+.infotainer--h1 {
+    font-family: "Maven Pro", sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.infotainer--albums--h1 {
+    font-family: "Maven Pro", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+
+.infotainer--h2 {
+    font-family: "Maven Pro", sans-serif;
+    text-align: center;
+    font-weight: 400;
+   
+}
+
+
+.infotainer--img {
+    width: 300px;
+    height: auto;
+    border-radius: 300px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.infotainer--p {
+    margin-top: 25px;
+    font-family: "Roboto Slab", serif;
+    font-size: 16.5px;
+    line-height: 1.9;
+    font-weight: 400;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 100%;
+}
+
+
+.infotainer--li {
+    margin-bottom: 28px; 
+    
+}
+
+ul p::first-letter {
+    font-size: 140%;
+}
+
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0));
+    width: 300px;
+    max-width: 100%;
+}
+
+
+#moveRight {
+    animation-name: moveRight;
+    animation-duration: 0.7s;
+}
+
+#moveDelay {
+    animation-name: moveDelay;
+    animation-duration: 0.7s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    
+}
+
+
+@keyframes moveRight {
+    0% { 
+        opacity: 0;
+        transform: translateX(-50px); 
+    }
+
+    
+    
+    100% {
+        opacity: 1;
+        transform: translate(0); 
+    }
+}
+  
+
+@keyframes moveDelay {
+   
+    0% {
+        opacity: 0;
+        transform: translateX(+50px);
+    }
+
+    100%
+    { 
+        opacity: 1;
+        transform: translate(0);
+
+    }
+
+}
+
+ 
